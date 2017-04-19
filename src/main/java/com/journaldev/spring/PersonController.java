@@ -35,7 +35,7 @@ public class PersonController {
 	public String addPerson(@ModelAttribute("person") Person p){
 		
 		if(p.getId() == 0){
-			//new person, add it
+			//new person, add it check this in git
 			this.personService.addPerson(p);
 		}else{
 			//existing person, call update
